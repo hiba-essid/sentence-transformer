@@ -1,0 +1,16 @@
+{
+  "buildCommand": "bun run build",
+  "installCommand": "bun install",
+  "devCommand": "bun run dev",
+  "framework": "nextjs",
+  "projectSettings": {
+    "installCommand": "bun install",
+    "buildCommand": "bun run build",
+    "outputDirectory": ".next/standalone"
+  },
+  "env": {
+    "NEXT_PUBLIC_PINECONE_API_KEY": "@pinecone_api_key",
+    "NEXT_PUBLIC_PINECONE_INDEX": "@pinecone_index",
+    "NODE_ENV": "production"
+  }
+}
